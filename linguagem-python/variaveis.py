@@ -8,10 +8,12 @@
 
 
 '''
-
+import math
 valor_capa = float(24.95)
 preco1 = valor_capa * float(0.4)+ 3
 preco2 = valor_capa * float(0.4) + 0.75
 
 print(" Na compra de 60 unidade o 1 ficaria {} e os demaais ficaria {} cada". format(preco1, preco2))
 print ("Na compra de 60 total: {}" . format(round(preco2 * 60),2))
+
+
